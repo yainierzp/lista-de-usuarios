@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.delheader {
+  display: flex;
+  justify-content: baseline;
+  gap: 34px;
+  max-width: 80%;
+  margin-left: 20%;
+}
+.lindoLabel:hover {
+  color: rgb(19, 235, 102);
+  cursor: pointer;
+}
+.laberinto {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* separación horizontal */
+}
+
+.delheader .laberinto {
+  margin-left: 5%;
+}
